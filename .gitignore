@@ -1,0 +1,25 @@
+# Secrets
+.env
+**/.env
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Backend (Spring / Maven)
+backend/target/
+backend/*.db
+backend/*.db-*
+
+# Flutter / Dart generated
+flutter_app/.dart_tool/
+flutter_app/build/
+flutter_app/.flutter-plugins-dependencies
+flutter_app/.metadata
+flutter_app/*.iml
+
+# General logs and temp files
+*.log
+*.tmp

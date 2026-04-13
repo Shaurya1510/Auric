@@ -1,0 +1,66 @@
+name: auric
+description: Auric - AI-Powered Calculator
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+  flutter: ">=3.22.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # HTTP
+  http: ^1.2.1
+  dio: ^5.7.0
+
+  # Google Sign-In
+  google_sign_in: ^6.2.1
+
+  # State Management
+  provider: ^6.1.2
+
+  # UI & Animation
+  animations: ^2.0.11
+  flutter_animate: ^4.5.0
+  shimmer: ^3.0.0
+  lottie: ^3.1.2
+  flutter_svg: ^2.0.10+1
+
+  # Storage
+  shared_preferences: ^2.3.2
+  flutter_secure_storage: ^9.2.2
+
+  # Image
+  image_picker: ^1.1.2
+  cached_network_image: ^3.4.1
+  speech_to_text: ^7.0.0
+
+  # Markdown + Math rendering
+  flutter_markdown: ^0.7.3+1
+  flutter_math_fork: ^0.7.2
+
+  # Utilities
+  intl: ^0.19.0
+  uuid: ^4.5.1
+  path_provider: ^2.1.4
+  share_plus: ^10.1.4
+
+  # Environment variables
+  flutter_dotenv: ^5.2.1
+
+  # Icons
+  cupertino_icons: ^1.0.8
+  font_awesome_flutter: ^10.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - .env
