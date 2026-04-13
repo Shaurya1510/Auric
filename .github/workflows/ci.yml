@@ -44,6 +44,10 @@ jobs:
         working-directory: flutter_app
         run: flutter pub get
 
+      - name: Prepare Flutter env file for analysis
+        working-directory: flutter_app
+        run: cp .env.example .env
+
       - name: Analyze Flutter project
         working-directory: flutter_app
         run: flutter analyze
