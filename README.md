@@ -2,6 +2,9 @@
 
 AI-powered calculator and study assistant built with Flutter (mobile app) and Spring Boot (backend API).
 
+> Project showcase only. This repository is public for viewing and academic review.
+> Source code reuse is not permitted without prior written permission.
+
 ![Flutter](https://img.shields.io/badge/Flutter-3.22+-02569B?logo=flutter&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.3.4-6DB33F?logo=springboot&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-17-007396?logo=openjdk&logoColor=white)
@@ -54,42 +57,12 @@ Auric/
 - Unknown backend routes are denied by default.
 - Do not commit real keys; use `.env.example` templates.
 
-## Local Setup
+## Usage & Rights
 
-### 1) Backend
-
-```bash
-cd backend
-copy .env.example .env
-```
-
-Set values in `backend/.env`, especially:
-- `OPENAI_API_KEY`
-- `GOOGLE_CLIENT_ID`
-- `GOOGLE_CLIENT_IDS`
-- `CORS_ALLOWED_ORIGINS`
-
-Run backend:
-
-```bash
-mvn spring-boot:run
-```
-
-Default API base URL: `http://127.0.0.1:8080`
-
-### 2) Flutter App
-
-```bash
-cd flutter_app
-copy .env.example .env
-flutter pub get
-flutter run
-```
-
-Set values in `flutter_app/.env`, especially:
-- `API_BASE_URL`
-- `GOOGLE_WEB_CLIENT_ID`
-- `GOOGLE_ANDROID_CLIENT_ID`
+- This repository is published for portfolio/review purposes only.
+- You may read and evaluate the project.
+- You may not copy, modify, distribute, train on, or reuse this codebase or assets without explicit written permission.
+- See `NOTICE.md` for the legal notice.
 
 ## API Snapshot
 
@@ -107,9 +80,4 @@ Set values in `flutter_app/.env`, especially:
 ## Roadmap
 
 - Add unit/integration tests for chat and auth flows
-- Add CI workflow for backend compile + flutter analyze
 - Add demo screenshots and short usage GIFs
-
----
-
-If you are reviewing this repo, start with `PROJECT_QUICK_GUIDE.md` for a fast architecture overview.
