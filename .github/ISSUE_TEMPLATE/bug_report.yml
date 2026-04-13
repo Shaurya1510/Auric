@@ -1,0 +1,61 @@
+name: Bug report
+description: Report a reproducible bug in Auric
+title: "bug: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting this issue. Please include enough detail so we can reproduce and fix it quickly.
+
+  - type: input
+    id: summary
+    attributes:
+      label: Summary
+      description: Short description of the problem
+      placeholder: App crashes when sending first AI message
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Exact steps we can follow
+      placeholder: |
+        1. Open app
+        2. Sign in with Google
+        3. Go to AI Chat
+        4. Send "Hello"
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      placeholder: Message should stream normally
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      placeholder: Shows error toast / freezes / blank response
+    validations:
+      required: true
+
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: Device/OS/App version info
+      placeholder: Android 14, Pixel 7, app v1.0.0
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or screenshots
+      description: Paste stack traces or attach screenshots if available

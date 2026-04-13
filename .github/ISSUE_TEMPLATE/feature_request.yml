@@ -1,0 +1,48 @@
+name: Feature request
+description: Suggest an improvement or new feature
+title: "feat: "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for your idea. Please explain what problem this solves and what outcome you expect.
+
+  - type: input
+    id: summary
+    attributes:
+      label: Feature summary
+      placeholder: Add exam mode for stricter AI responses
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem statement
+      description: What pain point are you facing?
+      placeholder: Current responses are sometimes too verbose for quick revision
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: What should Auric do?
+      placeholder: Add a toggle to force concise, verified, answer-first output
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Any other approaches you tried or considered?
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Mockups, links, or related discussion
