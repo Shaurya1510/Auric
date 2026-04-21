@@ -2,6 +2,8 @@
 
 AI-powered calculator and study assistant built with Flutter (mobile app) and Spring Boot (backend API).
 
+Created as a collaborative capstone project by Shaurya Jain and [Ujjwal Choudhary](https://github.com/ujjwalchoudhary680-ctrl).
+
 > Project showcase only. This repository is public for viewing and academic review.
 > Source code reuse is not permitted without prior written permission.
 
@@ -21,11 +23,21 @@ AI-powered calculator and study assistant built with Flutter (mobile app) and Sp
 
 ## Tech Stack
 
-- Frontend: Flutter, Provider, Dio/HTTP, flutter_animate
+- Frontend: Flutter, Provider, HTTP, flutter_animate
 - Backend: Spring Boot, Spring Security, Spring Data JPA, WebFlux
 - Auth: Google ID token verification + OAuth2 resource server
 - Database: SQLite
 - AI: OpenAI Chat Completions (text + vision)
+
+## Team
+
+- Shaurya Jain
+- Ujjwal Choudhary
+
+## Collaboration
+
+- This repository reflects a collaborative capstone project by Shaurya Jain and Ujjwal Choudhary.
+- GitHub's contributor graph only credits commits made from GitHub-linked author emails; future shared commits can also use `Co-authored-by` attribution when needed.
 
 ## Project Structure
 
